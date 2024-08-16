@@ -1,0 +1,28 @@
+QPushButton {
+    background-color: #007BFF; /* Primary blue color */
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+QPushButton:pressed {
+    background-color: #004085; /* Even darker blue on press */
+}
+QPushButton:disabled {
+    background-color: #d3d3d3; /* Light gray color */
+    color: #a9a9a9;            /* Dark gray text */
+}
+
+QToolTip {
+    background-color: #353535; /* Background color */
+    color: #ffffff;            /* Text color */
+    border: 1px solid #5a5a5a; /* Border color */
+    padding: 5px;                /* Padding around the text */
+    border-radius: 5px;          /* Rounded corners */
+    font-size: 12px;             /* Font size */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+}

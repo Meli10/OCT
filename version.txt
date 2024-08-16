@@ -1,0 +1,27 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),  # File version
+    prodvers=(1, 0, 0, 0),  # Product version
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,  # Target OS (Windows NT)
+    fileType=0x1,  # Executable file
+    subtype=0x0,
+    date=(2024, 8)
+    ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',  # Language and code page
+        [StringStruct('CompanyName', 'Your Company Name'),
+         StringStruct('FileDescription', 'This application is designed to seamlessly convert files between TSV, CSV, XLSX, and XLS formats. Additionally, all files will be checked for and converted to UTF-8 encoding to ensure maximum compatibility across different platforms and systems.'),
+         StringStruct('FileVersion', '1.0.0.0'),
+         StringStruct('InternalName', 'OCT'),
+         StringStruct('OriginalFilename', 'OCT.exe'),
+         StringStruct('ProductName', 'OCT'),
+         StringStruct('ProductVersion', '1.0.0.0'),
+         StringStruct('Comments', 'This application is not to be redistributed or sold without explicit permission from the original author.')])  # Correctly placed inside StringTable
+      ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
