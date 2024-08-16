@@ -27,7 +27,7 @@ This application is particularly useful for users who work with sensitive data i
 ### **🚀 How to Install**
 
 1. **Download the Application:**
-   - [Download the latest release](#)
+   - [Download the latest release](https://github.com/Meli10/OCT/releases/download/v1.0.0/OCT.exe)
    - Extract the contents of the downloaded zip file to your desired location.
 
 2. **Running the Application:**
